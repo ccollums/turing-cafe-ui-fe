@@ -63,4 +63,6 @@ Delete a reservation when the user clicks the `Cancel` button.  The deletion sho
 
 * Now try mocking your API calls. Try writing out a few other integration tests including happy path and sad path testing.
 
+* Add a new endpoint to the API server so the front-end can request all of the cafe's menu items. In the front end, add a button to view the menu.
+
 * Add a button or drop down so that the user has the option to sort their reservations by date from earliest to latest or latest to earliest.
