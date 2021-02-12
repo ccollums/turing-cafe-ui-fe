@@ -11,7 +11,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jest-environment-jsdom-sixteen",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "cypress": "./node_modules/.bin/cypress open"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -29,10 +30,8 @@
     ]
   },
   "devDependencies": {
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.0.4",
     "jest-environment-jsdom-sixteen": "^1.0.3",
-    "@testing-library/user-event": "^7.2.1",
-    "fsevents": "^1.2.13"
+    "fsevents": "^1.2.13",
+    "cypress": "^6.4.0"
   }
 }
