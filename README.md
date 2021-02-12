@@ -14,6 +14,8 @@ Run `npm install` to install dependencies for the repo.
 
 Run `npm start` to start up your React server.
 
+Run `npm run cypress` to start up the Cypress testing server.
+
 ### Expectations / Rules
 
 Build a React App that displays the current reservations for the Turing Cafe!
@@ -43,9 +45,9 @@ Do not worry about making the POST request to the database yet.
 ### Iteration 3
 
 Now that the functionality is there for adding a reservation, write some tests:
-* Write tests for the form component and another component (not App yet) covering what should be displayed on the page.
-* Write a unit test for the form component that checks that when data is put into the form, the value is reflected in that form input.
-* Write an integration test for App that tests the user flow for adding a new reservation.
+* Write tests covering what should be displayed on the page when the user first visits.
+* Write a test that checks that when data is put into the form, the value is reflected in that form input.
+* Write a test to check the user flow of adding a new reservation to the page.
 
 ### Iteration 4 (extension)
 
@@ -61,7 +63,7 @@ Delete a reservation when the user clicks the `Cancel` button.  The deletion sho
 
 ### Other Extensions
 
-* Now try mocking your API calls. Try writing out a few other integration tests including happy path and sad path testing.
+* Add error handling for the form and network requests. Try writing out a few other tests to cover sad path testing.
 
 * Add a new endpoint to the API server so the front-end can request all of the cafe's menu items. In the front end, add a button to view the menu.
 
