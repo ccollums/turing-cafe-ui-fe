@@ -1,5 +1,7 @@
 ## Turing Cafe - Reservation Portal
 
+#### This repo is used as an assessment during the course of the Turing modules, if you are viewing this repository outside the context of an assessment, you’re in violation of the Academic Integrity policy you agreed to as a student.
+
 This application was built with `create-react-app`.
 
 ### Set Up
