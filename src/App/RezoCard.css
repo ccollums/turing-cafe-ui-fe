@@ -1,11 +1,15 @@
 .card {
-	height: 20vh;
-    background-color: white;
-    border: solid 3px teal;
-    color: teal;
-    font-size: 66%;
-    width: 20vw;
-		border-radius: 1em;
+	height: 23vh;
+	background-color: white;
+	border: solid 3px teal;
+	color: teal;
+	font-size: 66%;
+	width: 17vw;
+	border-radius: 1em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .cancel-button {
@@ -13,4 +17,5 @@
 	background-color: teal;
 	color: white;
 	border: none;
+	height: 3.5vh;
 }
