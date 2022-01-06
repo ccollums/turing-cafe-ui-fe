@@ -1,0 +1,7 @@
+.rezo-container {
+	padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, auto));
+  grid-gap: 20px;
+	width: 90vw;
+}

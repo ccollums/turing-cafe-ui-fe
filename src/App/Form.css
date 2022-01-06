@@ -1,0 +1,14 @@
+input {
+	margin: 3%;
+}
+
+form {
+	width: 100vw;
+}
+
+.rezo-button {
+	width: 20%;
+	background-color: teal;
+	color: white;
+	border: none;
+}
